@@ -25,7 +25,7 @@ const Menu = () => {
           <li>
             <a
               style={{ textDecoration: "none" }}
-              href="http://localhost:3001/"
+              href="https://tradewise-frontend.onrender.com/"
               onClick={() => handleMenuClick(0)}
             >
               <p className={selectedMenu === 0 ? activeMenuClass : menuClass}>
