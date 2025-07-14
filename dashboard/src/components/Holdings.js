@@ -5,7 +5,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings").then((res) => {
+    axios.get("https://tradewise-backend-prhl.onrender.com/allHoldings").then((res) => {
       setAllHoldings(res.data);
     });
   }, []);
