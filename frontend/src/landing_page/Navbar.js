@@ -34,7 +34,7 @@ function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   style={{ marginLeft: "10rem" }}
-                  href="http://localhost:3000/"
+                  href="https://tradewise-dashboard.onrender.com/"
                 >
                   Dashboard
                 </a>
