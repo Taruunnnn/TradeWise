@@ -19,6 +19,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
+    <div style={{ width: "50px" }} />
       <div className="menus">
         <ul>
           <li>
